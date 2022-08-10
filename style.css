@@ -1,0 +1,59 @@
+
+/*GLOBAAL*/
+* {
+    margin: 0; /*elimina as margin*/
+    padding: 0; /*elimina preenchimento entre linhas*/
+  
+  }
+  
+  body{
+    background-color: #FFEDD5;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  /*FONTS*/
+  h1, h2, h3, .price {
+    font-family: 'Roboto Seris', serif;
+    text-transform: uppercase;
+    color: #2D2C2A;
+  }
+  header {
+    padding: 32px 0;
+    text-align: center;
+  }
+  /*SECTION*/
+  section {
+  margin-bottom: 24px;
+  }
+  
+  section,
+  header {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  section h2 {
+    background-color: #FED7AA;
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 18px;
+  }
+  
+  header h1 {
+    margin-bottom: 4px;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  
+  header h1 span {
+    color: #995000;
+  }
+  header p{
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.7);
+  
+  }
